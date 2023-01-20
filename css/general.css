@@ -1,0 +1,87 @@
+/* 
+01--typography:
+
+-FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+-Font-weight:
+Default:400;
+Medium:500;
+Semi-bold:600;
+Boldd: 700;
+
+-Line-height:
+default:1;
+medium:1.05;
+paragraph:1.6;
+
+02--colors:
+
+-PRIMARY: #e67e22
+-TINT:   
+ #fdf2e9
+ #fae5d3
+
+-SHADES:  #cf711f
+-ACCENT:
+-GREY:   #555  #333;
+
+03-SHADOW:-
+
+
+04--BORDER-RADIUS:
+   4.8rem
+05--WHITE SPACING:
+SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* GENERAL COMPONENTS */
+/* ********* */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px is a font i wanna use / default font(16px) */
+  /* 10PX /16PX= 0.625 =6.25 */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--6-cols {
+  grid-template-columns: repeat(6, minmax(7rem, 10rem));
+}
+
+.align-items {
+  align-items: center;
+}
+.text-align {
+  text-align: center;
+}
+.justify-items {
+  justify-items: center;
+}
