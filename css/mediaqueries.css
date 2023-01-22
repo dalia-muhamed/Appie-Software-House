@@ -364,6 +364,12 @@ SPACING SYSTEM (px)
   .header {
     padding: 1.4rem 1.8rem;
   }
+  .logo {
+    height: 2.2rem;
+  }
+  .icon-nav-mobile {
+    font-size: 2.4rem;
+  }
   .btn-fill:link,
   .btn-fill:visited {
     padding: 1.2rem 1.8rem;

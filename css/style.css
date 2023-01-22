@@ -8,6 +8,7 @@
   gap: 8rem;
   position: relative;
 }
+
 .sticky .header {
   background-color: rgba(255, 255, 255, 0.836);
   position: fixed;
