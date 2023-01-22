@@ -611,6 +611,7 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 1.4rem;
+  width: 90%;
   margin: 3.2rem 0;
 }
 .download-btn {
@@ -644,7 +645,6 @@
 .apple {
   padding: 1.2rem 4rem;
   background-color: #0e1133;
-
   color: #fff;
 }
 .android {
@@ -927,7 +927,7 @@
   box-shadow: 0 0 2rem 2rem rgba(205, 203, 203, 0.5);
 }
 .box-two {
-  grid-template-columns: repeat(4, minmax(7rem, 10rem));
+  grid-template-columns: repeat(4, minmax(5rem, 10rem));
   gap: 6.9rem;
   margin-bottom: 6.4rem;
 }
@@ -963,6 +963,7 @@ address a {
   color: #747373;
   font-size: 1.8rem;
   font-weight: 400;
+  line-height: 1.4;
 }
 .logo-text {
   margin: 2.6rem 0;

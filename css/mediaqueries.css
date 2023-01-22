@@ -50,6 +50,9 @@ SPACING SYSTEM (px)
   html {
     font-size: 47%;
   }
+  .heading-primary {
+    font-size: 5.6rem;
+  }
   .grid--2-cols {
     grid-template-columns: 1fr;
   }
@@ -64,8 +67,8 @@ SPACING SYSTEM (px)
   }
   .grid--6-cols {
     grid-template-columns: repeat(3, minmax(7rem, 10rem));
-    row-gap: 3.2rem;
-    column-gap: 6.9rem;
+    row-gap: 2.4rem;
+    column-gap: 4.8rem;
   }
   .btn-nav-mobile {
     display: block;
@@ -161,6 +164,7 @@ SPACING SYSTEM (px)
     gap: 6.9rem;
   }
   .where-img-box {
+    justify-self: end;
     width: 80%;
   }
   .advantage {
@@ -227,8 +231,8 @@ SPACING SYSTEM (px)
   }
   .box-two {
     grid-template-columns: repeat(3, minmax(7rem, 10rem));
-    row-gap: 3.2rem;
-    column-gap: 6.9rem;
+    row-gap: 2.4rem;
+    column-gap: 4.8rem;
   }
   .box-two .sponser-img-container:last-child {
     grid-column: span 3;
@@ -331,7 +335,7 @@ SPACING SYSTEM (px)
 /* 704px */
 @media (max-width: 44em) {
   .heading-primary {
-    font-size: 4.6rem;
+    font-size: 5.2rem;
   }
   .heading-secondary {
     font-size: 3.6rem;
@@ -342,7 +346,9 @@ SPACING SYSTEM (px)
   .download {
     width: 100%;
   }
-
+  .download-btns {
+    width: 77%;
+  }
   .testimonial-section {
     padding: 12.8rem 4.8rem;
   }
@@ -355,9 +361,18 @@ SPACING SYSTEM (px)
 }
 
 @media (max-width: 34em) {
-  .heading-primary {
-    font-size: 3.8rem;
+  .header {
+    padding: 1.4rem 1.8rem;
   }
+  .btn-fill:link,
+  .btn-fill:visited {
+    padding: 1.2rem 1.8rem;
+    font-size: 1.2rem;
+  }
+  .hero-text-box {
+    width: 90%;
+  }
+
   .heading-info {
     font-size: 2rem;
   }
@@ -400,18 +415,16 @@ SPACING SYSTEM (px)
   .media-heading {
     grid-column: 1/-1;
   }
+  .download-section {
+    padding: 12.8rem 2.4rem;
+  }
   .heading-download {
     font-size: 3rem;
   }
   .download-info {
     font-size: 1.4rem;
   }
-  .apple {
-    padding: 1.2rem 2rem;
-  }
-  .android {
-    padding: 1.2rem 1.2rem;
-  }
+
   .heading-teritary,
   .heading-pricing,
   .heading-sponser {
@@ -420,8 +433,12 @@ SPACING SYSTEM (px)
   .testimonial-text {
     font-size: 1.8rem;
   }
+  .box-one {
+    margin-bottom: 2.4rem;
+  }
   .footer-btn {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 1rem;
   }
   .copyright {
     font-size: 1.6rem;
