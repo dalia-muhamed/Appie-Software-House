@@ -158,6 +158,9 @@
   gap: 2.4rem;
   margin-bottom: 9.6rem;
 }
+.feedback-imgs {
+  display: flex;
+}
 .feedback-img {
   border-radius: 50%;
   width: 5.2rem;
@@ -612,7 +615,7 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 1.4rem;
-  width: 90%;
+  width: 100%;
   margin: 3.2rem 0;
 }
 .download-btn {
@@ -701,6 +704,10 @@
   padding: 1rem 2.2rem;
   color: #fff;
   border-radius: 3rem;
+  transition: all 0.3s;
+}
+.monthly:hover {
+  transform: translateX(7.4rem);
 }
 .pricing-cards {
   justify-items: stretch;
