@@ -365,15 +365,15 @@ SPACING SYSTEM (px)
     padding: 1.4rem 1.8rem;
   }
   .logo {
-    height: 2.2rem;
+    height: 3.2rem;
   }
   .icon-nav-mobile {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
   }
   .btn-fill:link,
   .btn-fill:visited {
-    padding: 1.2rem 1.8rem;
-    font-size: 1.2rem;
+    padding: 1.4rem 2rem;
+    font-size: 1.6rem;
   }
   .hero-text-box {
     width: 90%;
@@ -424,6 +424,7 @@ SPACING SYSTEM (px)
   .download-section {
     padding: 12.8rem 2.4rem;
   }
+
   .heading-download {
     font-size: 3rem;
   }
